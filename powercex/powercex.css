@@ -1,0 +1,440 @@
+/**                                                        $$$$$$\  $$$$$$$$\ $$\   $$\
+ *                                                        $$  __$$\ $$  _____|$$ |  $$ |
+ *   $$$$$$\   $$$$$$\  $$\  $$\  $$\  $$$$$$\   $$$$$$\  $$ /  \__|$$ |      \$$\ $$  |
+ *  $$  __$$\ $$  __$$\ $$ | $$ | $$ |$$  __$$\ $$  __$$\ $$ |      $$$$$\     \$$$$  /
+ *  $$ /  $$ |$$ /  $$ |$$ | $$ | $$ |$$$$$$$$ |$$ |  \__|$$ |      $$  __|    $$  $$<
+ *  $$ |  $$ |$$ |  $$ |$$ | $$ | $$ |$$   ____|$$ |      $$ |  $$\ $$ |      $$  /\$$\
+ *  $$$$$$$  |\$$$$$$  |\$$$$$\$$$$  |\$$$$$$$\ $$ |      \$$$$$$  |$$$$$$$$\ $$ /  $$ |
+ *  $$  ____/  \______/  \_____\____/  \_______|\__|       \______/ \________|\__|  \__|
+ *  $$ |
+ *  $$ |   Full-screen UI for CEX.io                       Homepage: http://goo.gl/fYH52O
+ *  \__|   v1.3b by bitstoned                               Preview: http://goo.gl/6rW7cv
+ *
+ *  BTC: 1Hs73amwuyNAQeYsQQ8yYWe2ymgeTmPWc3 | DVC: 1G4HJRScYtmLPC3yw8S17WNJdoTxyKyRCw
+ *
+ *  Contributors
+ *  ============
+ *
+ *  serial77 // BTC: 1DyRW2oLRecj8YA1D1Htbk6iiepuhLfJns
+ *
+ *  Usage Instructions
+ *  ==================
+ *
+ *  Apply with the Stylish extension for much awesomeness when visiting CEX.io
+ *
+ *  For Chrome:  https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe
+ *  For Firefox: https://addons.mozilla.org/en-US/firefox/addon/stylish/
+ *
+ *  Be sure to apply this style only to the domain: cex.io (See Stylish help for your browser)
+ *
+ *  License
+ *  =======
+ *
+ *  Redistribution and use of the powerCEX code or any derivative works are permitted provided that the
+ *  following conditions are met:
+ *
+ *  - Redistributions may not be sold, nor may they be used in a commercial product or activity.
+ *  - Redistributions that are modified from the original source must include the complete source code,
+ *    including the source code for all components used by a binary built from the modified sources.
+ *    However, as a special exception, the source code distributed need not include anything that is
+ *    normally distributed (in either source or binary form) with the major components (compiler, kernel,
+ *    and so on) of the operating system on which the executable runs, unless that component itself
+ *    accompanies the executable.
+ *  - Redistributions must reproduce the above copyright notice, this list of conditions and the following
+ *    disclaimer in the documentation and/or other materials provided with the distribution.
+ *  - Exceptions to the terms of this license may be granted only with express written permission of the
+ *    author(s) of this software.
+ *
+ *  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED
+ *  WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+ *  PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ *  ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ *  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ *  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+ *  TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ *  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+div,
+tr {
+	font-size: 110%;
+	}
+
+a,
+th,
+td,
+label,
+div > div {
+	font-size: 94%;
+	}
+
+.active-orders th,
+.active-orders td {
+	font-size: 80% !important;
+	}
+
+br:last-child {
+	display: none !important;
+	}
+
+.navbar-inner {
+	min-height: 24px !important;
+	}
+
+.navbar .divider-vertical {
+	height: 35px !important;
+	}
+
+.navbar .nav > li > a {
+	font-size: 100% !important;
+	position: relative !important;
+	padding-top: 7px !important;
+	padding-bottom: 7px !important;
+	z-index: 1000 !important;
+	}
+
+.navbar-avatar > .dropdown > .dropdown-toggle {
+	padding-top: 4px !important;
+	padding-bottom: 4px !important;
+	}
+
+.navbar-avatar .thumb-small {
+	width: 22px !important;
+	}
+
+.home > .container:nth-child(2) {
+	position: fixed !important;
+	min-width: 650px !important;
+	width: 650px !important;
+	max-width: 650px !important;
+	top: -89px !important;
+	left: 830px !important;
+	z-index: 1500 !important;
+	}
+
+.home > .notification.container {
+	position: relative !important;
+	top: 35px !important;
+	z-index: 1000 !important;
+	/**
+	 * Uncomment the following rule to hide the notification bar.
+	 *
+	 * The authors of this hack take no responsibility for important information
+	 * you may miss by hiding the notification bar. (i.e. ToS changes)
+	 */
+	/* display: none; */
+	}
+
+br:last-child,
+.page-header > div,
+.buy-sell > h3,
+.buy-sell > .row-fluid > .span6 > br,
+#instant .total,
+.footer > .container-fluid,
+.cex-logo,
+.slogan,
+#contract,
+.buy-sell > a {
+	display: none !important;
+	}
+
+.nav,
+.block,
+form,
+.control-group {
+	margin-bottom: 0 !important;
+	}
+
+.balance {
+	margin-top: 0 !important;
+	}
+
+.balance b {
+	font-size: 120% !important;
+	}
+
+.balance li {
+	width: 160px !important;
+	}
+
+.nav {
+	margin-bottom: 0 !important;
+	}
+
+.nav-a {
+	padding-left: 0 !important;
+	}
+
+.btn-fund {
+	margin: 0 !important;
+	width: 120px !important;
+	height: 0px !important;
+	padding: 0 0 26px 5px !important;
+	font-size: 12px !important;
+	position: fixed !important;
+	top: 4px !important;
+	right: 6px !important;
+	z-index: 1200 !important;
+	}
+
+.container {
+	min-width: 85% !important;
+	max-width: 100% !important;
+	margin-left: 0 !important;
+	}
+
+#inner .home {
+	padding-bottom: 0 !important;
+	}
+
+#content {
+	width: 100% !important;
+	padding: 35px 5px 15px 5px !important;
+	}
+
+#content > .row-fluid > div > {
+	clear: both;
+	}
+
+#pairs {
+	height: 70px !important;
+	margin-bottom: 0 !important;
+	}
+
+.graph-tab {
+	padding: 8px !important;
+	}
+
+.graph-tab.active {
+	border-radius: 8px 8px 0 0 !important;
+	}
+
+#google_candelistic_chart {
+	height: 255px !important;
+	}
+
+.google_charts_zoom li {
+	cursor: pointer !important;
+	float: left !important;
+	margin: 5px !important;
+	padding: 0 10px !important;
+	}
+
+#google_control {
+	top: 25px !important;
+	}
+
+.span12 > .chart {
+	display: inline-block !important;
+	margin-top: -3px !important;
+	width: 52% !important;
+	float: left !important;
+	clear: left !important;
+	}
+
+.span12 > .market {
+	display: inline-block !important;
+	margin-top: 0 !important;
+	padding: 0 !important;
+	width: 45% !important;
+	height: 414px !important;
+	float: right !important;
+	clear: right !important;
+	}
+
+.market-data {
+	margin-bottom: 0 !important;
+	padding: 10px 0 10px 10px !important;
+	border-radius: 10px 10px 0 0 !important;
+	}
+
+.market-data .title {
+	font-size: 24px !important;
+	}
+
+.market-data .pair-name {
+	width: 12.5% !important;
+	}
+
+.market-data .span10 {
+	margin-left: 0 !important;
+	}
+
+.market-data .day-range {
+	width: 29% !important;
+	}
+
+h3 {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	}
+
+.title {
+	font-size: 16px !important;
+	}
+
+.buy-sell {
+	margin: 15px 0 !important;
+	min-height: 160px !important;
+	padding: 10px 10px 0 10px !important;
+	background: #f7f8f9 !important;
+	}
+
+.buy-sell > h3,
+.buy-sell > .row-fluid > .span6 > br {
+	display: none !important;
+	}
+
+.buy-sell .fee {
+	position: absolute !important;
+	font-size: 9px !important;
+	margin-top: 3px !important;
+	}
+
+#trade,
+#instant {
+	display: inline-block !important;
+	}
+
+#trade {
+	float: right !important;
+	width: 49.5% !important;
+	}
+
+#instant {
+	float: left !important;
+	width: 50% !important;
+	}
+
+#instant .total {
+	display: none !important;
+	}
+
+.block {
+	margin-bottom: 0 !important;
+	}
+
+.btn-small {
+	padding: 3px !important;
+	font-size: 10.5px !important;
+	}
+
+#order-buy-error,
+#order-buy-success,
+#order-error,
+#order-success {
+	width: 300px !important;
+	height: 16px !important;
+	position: absolute !important;
+	}
+
+#order-buy-error,
+#order-buy-success {
+	top: 40px !important;
+	}
+
+#order-error,
+#order-success {
+	top: 0 !important;
+	bottom: 415px !important;
+	margin-left: 190px !important;
+	}
+
+.alert .close {
+	width: 30px !important;
+	height: 27px !important;
+	}
+
+form,
+.control-group {
+	margin-bottom: 0 !important;
+	}
+
+.row-fluid > .span6 > .panel {
+	border-radius: 15px 0 0 15px !important;
+	}
+
+.row-fluid > .span6 + .span6 > .panel {
+	border-radius: 0 15px 15px 0 !important;
+	}
+
+.panel,
+.panel-heading {
+	width: 94% !important;
+	}
+
+.buy-sell-orders,
+.active-orders {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	}
+
+.buy-sell-orders {
+	padding-right: 0 !important;
+	width: 51% !important;
+	float: left !important;
+	}
+
+.buy-sell-orders > .row-fluid > .span6 > div {
+	width: 100% !important;
+	}
+
+.buy-sell-orders > .row-fluid > .span6 > div > div {
+	height: 590px !important;
+	}
+
+#md-sell-loading,
+#md-buy-loading,
+#orders-loading {
+	margin-left: -75px;
+	}
+
+.active-orders {
+	width: 46% !important;
+	float: right !important;
+	}
+
+.active-orders > .row-fluid > div:last-of-type {
+	height: 190px !important;
+	}
+
+.active-orders + .active-orders > .row-fluid > div:last-of-type {
+	height: 360px !important;
+	}
+
+.table th,
+.table td {
+	padding: 5px !important;
+	}
+
+#contract {
+	display: none !important;
+	}
+
+.buy-sell > a {
+	display: none !important;
+	}
+
+.input-append {
+	zoom: 0.8 !important;
+	}
+
+.footer div {
+	font-size: 100% !important;
+	}
+
+.footer > .container-fluid {
+	display: none !important;
+	}
+
+.modal-backdrop.fade.in {
+	opacity: 0.15 !important;
+	}
+
+div.jGrowl.top-right {
+	top: 34px !important;
+	}
+
+#msgWindow {
+	zoom: 85% !important;
+	}

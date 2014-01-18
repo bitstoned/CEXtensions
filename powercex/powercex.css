@@ -434,6 +434,10 @@ div.jGrowl.top-right {
 	top: 34px !important;
 	}
 
+.jGrowl-closer {
+	top: 35px;
+	}
+
 #msgWindow {
 	zoom: 85% !important;
 	}

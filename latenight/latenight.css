@@ -55,134 +55,15 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #content {
 	background: none !important;
+	padding: 5px 5px 15px !important;
 	}
+	
+.cex-logo {
+	background: url(http://s13.postimg.org/91c2l0s93/late_night_logo.png) no-repeat !important;
+	width: 238px !important;
+	height: 85px !important;
+	margin-left: 0px !important;}
 
-.graph-tab.active {
-	background: rgba(0, 0, 0, 0.60) !important;
-	border: 1px solid #000 !important;
-	}
-
-#google_candelistic_chart {
-	background: rgba(2, 1, 1, 0.34) !important;
-	box-shadow: inset 0 100px 160px -100px rgba(0, 174, 207, 0.26) !important;
-	}
-
-#google_control {
-	background: rgba(0, 0, 0, 0.60) !important;
-	box-shadow: none !important;
-	}
-
-.span12 > .chart {
-	border-radius: 0 0 0 0 !important;
-	}
-
-.span12 > .market {
-	border: 1px solid #000000 !important;
-	border-radius: 0 0 0 0 !important;
-	background: rgba(0, 0, 0, 0.60) !important;
-	}
-
-.market-data {
-	background: none !important;
-	box-shadow: none !important;
-	color: #436fa3 !important;
-	}
-
-.market-data .title {
-	color: #436fa3 !important;
-	}
-
-#market-depth-google > div > div > svg > g > g > g > rect {
-	background: none !important;
-	fill: rgba(0, 0, 0, 0.99) !important;
-	}
-
-.market {
-	background: rgba(0, 0, 0, 0.60) !important;
-	}
-
-.value {
-	color: rgb(136, 203, 209) !important;
-	font-weight: 400 !important;
-	}
-
-#content > div > div > div:nth-child(2) {
-	background: rgba(0, 0, 0, 0.60) !important;
-	border: 1px solid #000 !important;
-	}
-
-#google_candelistic_chart > div > div > svg > g > g > g:first-child > rect {
-	fill: #000e11 !important;
-	}
-
-#google_candelistic_chart svg > g > g > g > rect {
-	fill: #040b0d !important;
-	}
-
-#google_control svg > g > g > g > rect {
-	fill: #005b80 !important;
-	}
-
-#market-bars-google > div > div > svg > g > g > g:first-child >rect {
-	fill: black !important;
-	}
-
-#google_control div:last-child svg rect:nth-child(3) {
-	box-shadow: none !important;
-	fill: black !important;
-	}
-
-#google_control text {
-	fill: #005b80 !important;
-	}
-
-#google_candelistic_chart text {
-	fill: #153137 !important;
-	}
-
-#google_candelistic_chart > div > div > svg > g > g > g > g > rect:first-child {
-	fill: #2b2b2b !important;
-	}
-
-.google_charts_zoom li.active {
-	background: rgb(0, 50, 70) !important;
-	color: #00DBDB !important;
-	}
-
-.google_charts_zoom li {
-	background-color: #00202C !important;
-	color: #395B61 !important;
-	}
-
-#google_control > div > div > svg > g > g > path {
-	fill: #677a8f !important;
-	}
-
-#ohlcv-close {
-	color: #00ff96 !important;
-	font-weight: bold !important;
-	}
-
-.highlight-red {
-	background: rgba(255, 0, 0, 0.3) !important;
-	color: red !important;
-	}
-
-.highlight-green {
-	background: rgba(0, 255, 150, 0.3) !important;
-	color: rgba(0, 255, 150, 1) !important;
-	}
-
-.buy-sell-orders tr.active {
-	background: rgba(0, 198, 255, 0.3) !important;
-	color: rgba(0, 198, 255, 1) !important;
-	}
-
-.buy-sell-orders tr {
-	transition: all 0.25s ease-in-out !important;
-	-webkit-transition: all 0.25s ease-in-out !important;
-	-moz-transition: all 0.25s ease-in-out !important;
-	}
 
 .home {
 	background: #121a1e !important; /* Old browsers */
@@ -218,6 +99,16 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	background: linear-gradient(to bottom,  #273238 0%,#151616 50%,#0a0e0a 51%,#0a0809 100%) !important; /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#273238', endColorstr='#0a0809',GradientType=0 ) !important; /* IE6-9 */
 	}
+	
+.navbar .divider-vertical {
+	margin: 0 !important;
+	border-right: 1px solid #313131 !important;
+	}
+
+.navbar .nav>li>a {
+	float: none !important;
+	color: #38697C !important;
+	}		
 
 .btn-white {
 	-khtml-border-radius: 3px !important;
@@ -328,21 +219,9 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 .row-fluid > .span6 + .span6 > .panel {
 	border-radius: 0 0 0 0 !important;
 	}
-
-#market-depth-google > div > div > svg > rect,
-#market-bars-google > div > div > svg > rect {
-	background: none !important;
-	fill: none !important;
-	}
-
+	
 .row-fluid > .span6 > .panel,.row-fluid > .span6 + .span6 > .panel {
 	border-radius:0 0 0 0 !important;
-	}
-
-#market-depth-google > div > div > svg > rect,
-#market-bars-google > div > div > svg > rect {
-	background:none !important;
-	fill:none !important;
 	}
 
 .btn-white span.btn_caption {
@@ -350,29 +229,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	text-shadow: 0 1px 0 black !important;
 	decoration: none !important;
 	}
-
-.navbar .divider-vertical {
-	margin: 0 !important;
-	border-right: 1px solid #313131 !important;
-	}
-
-.navbar .nav>li>a {
-	float: none !important;
-	color: #38697C !important;
-	}
-
-.buy-sell {
-	border: none !important;
-	padding: 10px 5px 0 !important;
-	-moz-border-radius: 0px !important;
-	-webkit-border-radius: 0px !important;
-	-khtml-border-radius: 0px !important;
-	border-radius: 0px !important;
-	background: rgba(0, 0, 0, 0) !important;
-	position: relative !important;
-	margin-right: 5px !important;
-	}
-
+	
 .panel {
 	padding: 15px !important;
 	margin-bottom: 10px !important;
@@ -392,6 +249,185 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	-webkit-transition: all 0.25s ease-in-out !important;
 	-moz-transition: all 0.25s ease-in-out !important;  
 	}
+	
+.panel-heading {
+	padding: 10px 26px !important;
+	margin: -15px -15px 15px !important;
+	font-size: 17.5px !important;
+	font-weight: 500 !important;
+	border-bottom: 2px groove #1E272B !important;
+	border-top-right-radius: 15px !important;
+	border-top-left-radius: 15px !important;
+	}
+
+.buy-sell .panel-heading .title {
+	background:none !important;
+	}
+	
+	
+.bg-white {
+	background: none !important;
+	}	
+		
+.graph-tab.active {
+	background: rgba(0, 0, 0, 0.60) !important;
+	border: 1px solid #000 !important;
+	}
+
+#google_candelistic_chart {
+	background: rgba(2, 1, 1, 0.34) !important;
+	box-shadow: inset 0 100px 160px -100px rgba(0, 174, 207, 0.26) !important;
+	}
+
+#google_control {
+	background: rgba(0, 0, 0, 0.60) !important;
+	box-shadow: none !important;
+	}
+
+.chart {
+	border: 1px solid #000000 !important;
+	border-radius: 0 0 0 0 !important;
+	background: rgba(0, 0, 0, 0.6) !important;
+	}
+
+
+.value {
+	color: rgb(136, 203, 209) !important;
+	font-weight: 400 !important;
+	}
+
+
+#google_candelistic_chart > div > div > svg > g > g > g:first-child > rect {
+	fill: #000e11 !important;
+	}
+
+#google_candelistic_chart svg > g > g > g > rect {
+	fill: #040b0d !important;
+	}
+
+#google_control svg > g > g > g > rect {
+	fill: #005b80 !important;
+	}
+
+#market-bars-google > div > div > svg > g > g > g:first-child >rect {
+	fill: black !important;
+	}
+
+#google_control div:last-child svg rect:nth-child(3) {
+	box-shadow: none !important;
+	fill: black !important;
+	}
+
+#google_control text {
+	fill: #005b80 !important;
+	}
+
+#google_candelistic_chart text {
+	fill: #153137 !important;
+	}
+
+#google_candelistic_chart rect[fill='#c21435'] { fill: #8226b0; } 
+#google_candelistic_chart rect[fill='#106aa9'] { fill: #00ffa2; } 
+#google_candelistic_chart rect[fill='#000000'] { fill: #2b2b2b; }
+#google_candelistic_chart rect[stroke='#c21435'] { stroke: #8226b0; }
+#google_candelistic_chart rect[stroke='#106aa9'] { stroke: #00ffa2; }
+
+.google_charts_zoom li.active {
+	background: rgb(0, 50, 70) !important;
+	color: #00DBDB !important;
+	}
+
+.google_charts_zoom li {
+	background-color: #00202C !important;
+	color: #395B61 !important;
+	}
+
+#google_control > div > div > svg > g > g > path {
+	fill: #677a8f !important;
+	}
+
+#ohlcv-close {
+	color: #00ff96 !important;
+	font-weight: bold !important;
+	}
+
+.market {
+	border: 1px solid #000000 !important;
+	border-radius: 0 0 0 0 !important;
+	background: rgba(0, 0, 0, 0.60) !important;
+	}
+
+.market-data {
+	background: none !important;
+	box-shadow: none !important;
+	color: #436fa3 !important;
+	}
+
+.market-data .title {
+	color: #436fa3 !important;
+	}
+
+#market-depth-google > div > div > svg > g > g > g > rect {
+	background: none !important;
+	fill: rgba(0, 0, 0, 0.99) !important;
+	}
+
+.market {
+	background: rgba(0, 0, 0, 0.60) !important;
+	}
+	
+
+.highlight-red {
+	background: rgba(255, 0, 0, 0.3) !important;
+	color: red !important;
+	}
+
+.highlight-green {
+	background: rgba(0, 255, 150, 0.3) !important;
+	color: rgba(0, 255, 150, 1) !important;
+	}
+
+.buy-sell-orders tr.active {
+	background: rgba(0, 198, 255, 0.3) !important;
+	color: rgba(0, 198, 255, 1) !important;
+	}
+
+.buy-sell-orders tr {
+	transition: all 0.25s ease-in-out !important;
+	-webkit-transition: all 0.25s ease-in-out !important;
+	-moz-transition: all 0.25s ease-in-out !important;
+	}
+
+#trade .toggle {
+	background: url(http://s29.postimg.org/3n1bvmelj/toggle_up.png) no-repeat !important;
+}
+#instant .toggle {
+	background: url(http://s29.postimg.org/5g8txop5z/toggle_down.png) no-repeat !important;
+}
+
+#market-depth-google > div > div > svg > rect,
+#market-bars-google > div > div > svg > rect {
+	background: none !important;
+	fill: none !important;
+	}
+
+#market-depth-google > div > div > svg > rect,
+#market-bars-google > div > div > svg > rect {
+	background:none !important;
+	fill:none !important;
+	}
+
+.buy-sell {
+	border: none !important;
+	padding: 10px 5px 0 !important;
+	-moz-border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+	-khtml-border-radius: 0px !important;
+	border-radius: 0px !important;
+	background: rgba(0, 0, 0, 0) !important;
+	position: relative !important;
+	margin-right: 5px !important;
+	}
 
 #instant > div > div > div:last-child > section:hover,#trade > div > div > div:last-child > section:hover {
 	border-bottom: 1px solid rgba(255,0,0,1) !important;
@@ -407,26 +443,46 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	box-shadow: 0px 6px 6px -3px rgba(0, 116, 65, 0.31) !important;
 	}
 
-.bg-white {
-	background: none !important;
-	}
-
-.panel-heading {
-	padding: 10px 26px !important;
-	margin: -15px -15px 15px !important;
-	font-size: 17.5px !important;
-	font-weight: 500 !important;
-	border-bottom: 2px groove #1E272B !important;
-	border-top-right-radius: 15px !important;
-	border-top-left-radius: 15px !important;
-	}
-
-.buy-sell .panel-heading .title {
-	background:none !important;
-	}
-
 #instant > div > div > div > section > header > span {
 	color:rgb(66, 206, 139) !important;
+	}
+
+.active-orders > .row-fluid > div:last-of-type {
+	height: 190px !important;
+	background: #121a1e !important;
+	background: -moz-linear-gradient(top, #121a1e 0%, #000000 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#121a1e), color-stop(100%,#000000)) !important;
+	background: -webkit-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+	background: -o-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+	background: -ms-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+	background: linear-gradient(to bottom, #121a1e 0%,#000000 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121a1e', endColorstr='#000000',GradientType=0 ) !important;
+	}
+
+#history > tbody > tr > td:nth-child(3) {
+	color: #0B7DA2 !important;
+	font-size: 105% !important;
+	font-weight: bold !important;
+	}
+
+.history-tabs ul li.active {
+	border: 1px solid #113C42 !important;
+	border-right: 1px solid #0C0C0C !important;
+	-moz-border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+	-khtml-border-radius: 0px !important;
+	border-radius: 0px !important;
+	background: rgba(0, 0, 0, 0) !important;
+	}
+
+.history-data {
+	border: 1px solid #113C42 !important;
+	background: rgba(0, 0, 0, 0) !important;
+	}	
+	
+.table-striped tbody > tr:nth-child(odd) > td,
+.table-striped tbody > tr:nth-child(odd) > th {
+	background-color: #0A1E27 !important;
 	}
 
 .table-bordered {
@@ -478,19 +534,45 @@ table {
 
 .table th, .table td {
 	border-top: 1px dotted #555555 !important;
+	}	
+
+
+.table-hover tbody tr:hover > td,
+.table-hover tbody tr:hover > th {
+	background-color: #000000 !important;
+	}	
+
+.buy-sell .fee {
+	color: #3F6691 !important;
 	}
 
-.active-orders > .row-fluid > div:last-of-type {
-	height: 190px !important;
-	background: #121a1e !important;
-	background: -moz-linear-gradient(top, #121a1e 0%, #000000 100%) !important;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#121a1e), color-stop(100%,#000000)) !important;
-	background: -webkit-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
-	background: -o-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
-	background: -ms-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
-	background: linear-gradient(to bottom, #121a1e 0%,#000000 100%) !important;
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121a1e', endColorstr='#000000',GradientType=0 ) !important;
+.gd.l, .gd:active, .gd.active, .gd:hover {
+	border-color: #000 !important;
 	}
+
+.gd {
+	border-color: #222 !important;
+	background-color: #223746 !important;
+	}
+	
+#orders tr > td:nth-child(4){
+	color: rgb(147, 107, 218) !important;
+	}
+
+#orders tr > td:nth-child(1) {
+	color: rgb(107, 196, 218) !important;
+	}
+
+#orders {
+	border-bottom: 1px dotted #222 !important;
+	}
+
+	
+.online, .chat-bottom-title {color: #0E94A7 !important;}
+
+.chat-bottom {
+background-image: url(http://s13.postimg.org/4vrio8yrr/chat_bottom.png) !important;
+	}	
 
 .chat-tabs {
 	background-color: #000 !important;
@@ -562,28 +644,7 @@ table {
 	border-bottom: 0px !important;
 	background: #141414 !important;
 	}
-
-.ui-state-hover,.chat-tabs .ui-tabs-nav li.ui-state-hover {
-	background:#555555
-	}
-
-.ui-widget-content {
-	border: 1px solid #303030 !important;
-	}
-
-textarea{
-	border: 1px solid rgba(204, 204, 204, 0) !important;
-	}
-
-.sender-btn {
-	position: absolute !important;
-	right: 10px !important;
-	margin-top: 6px !important;
-	width: 16px !important;
-	height: 16px !important;
-	background:none !important;
-	}
-
+	
 .chat-head {
 	background: #121a1e !important;
 	background: -moz-linear-gradient(top, #121a1e 0%, #000000 100%) !important;
@@ -628,11 +689,27 @@ textarea{
 	margin-right: 5px !important;
 	}
 
-#content {
-	padding: 5px 5px 15px !important;
+.sender-btn {
+	position: absolute !important;
+	right: 10px !important;
+	margin-top: 6px !important;
+	width: 16px !important;
+	height: 16px !important;
+	background:none !important;
+	}	
+
+.ui-state-hover,.chat-tabs .ui-tabs-nav li.ui-state-hover {
+	background:#555555
 	}
 
-input[type="text"] {
+.ui-widget-content {
+	border: 1px solid #303030 !important;
+	}
+textarea{
+	border: 1px solid rgba(204, 204, 204, 0) !important;
+	}
+
+input[type="text"], input[type="password"] {
 	box-shadow: inset 0px -1px 6px 2px rgba(0, 0, 0, 0.3) !important;
 	background: #162129 !important;
 	border: 1px solid black !important;
@@ -653,46 +730,18 @@ input[type="text"] {
 	border: 1px solid #000 !important;
 	}
 
-.gd {
-	background-color: #223746 !important;
-	}
-
-#history > tbody > tr > td:nth-child(3) {
-	color: #0B7DA2 !important;
-	font-size: 105% !important;
-	font-weight: bold !important;
-	}
-
-.buy-sell .fee {
-	color: #3F6691 !important;
-	}
-
-.gd.l, .gd:active, .gd.active, .gd:hover {
-	border-color: #000 !important;
-	}
-
-.gd {
-	border-color: #222 !important;
-	}
-
-#inner .footer {
+.footer {
 	background: #000000 !important;
 	border-top: 1px dashed #222 !important;
 	}
+#inner .footer .links a:hover {
+	color: cyan !important;
+}
 
-#orders tr > td:nth-child(4){
-	color: rgb(147, 107, 218) !important;
-	}
 
-#orders tr > td:nth-child(1) {
-	color: rgb(107, 196, 218) !important;
-	}
-
-#orders {
-	border-bottom: 1px dotted #222 !important;
-	}
 
 /** INTERNAL PAGES **/
+	
 .fund-account {
 	background: rgba(0, 0, 0, 0) url(/img/fund-bg.png) no-repeat right -30px !important;
 	border: 1px solid #113C42 !important;
@@ -724,31 +773,6 @@ input[type="text"] {
 	padding: 10px 15px !important;
 	border: 1px solid #0F0C0C !important;
 	text-align: center !important;
-	}
-
-.table-striped tbody > tr:nth-child(odd) > td,
-.table-striped tbody > tr:nth-child(odd) > th {
-	background-color: #0A1E27 !important;
-	}
-
-.history-tabs ul li.active {
-	border: 1px solid #113C42 !important;
-	border-right: 1px solid #0C0C0C !important;
-	-moz-border-radius: 0px !important;
-	-webkit-border-radius: 0px !important;
-	-khtml-border-radius: 0px !important;
-	border-radius: 0px !important;
-	background: rgba(0, 0, 0, 0) !important;
-	}
-
-.table-hover tbody tr:hover > td,
-.table-hover tbody tr:hover > th {
-	background-color: #000000 !important;
-	}
-
-.history-data {
-	border: 1px solid #113C42 !important;
-	background: rgba(0, 0, 0, 0) !important;
 	}
 
 .pagination ul > li > a,
@@ -853,3 +877,8 @@ input[type="text"] {
 .legend {
 	border-bottom: 1px solid #1C3542 !important;
 	}
+	
+.extra {
+	color: #BBB !important;
+	border-bottom: 1px solid #0D1A19 !important;
+}

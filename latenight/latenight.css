@@ -379,7 +379,6 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	margin-right: -10px !important;
 	background: none !important;
 	border-radius: 0px !important;
-	min-height: 115px !important;
 	background: #121a1e !important;
 	background: -moz-linear-gradient(top, #121a1e 0%, #000000 100%) !important;
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#121a1e), color-stop(100%,#000000)) !important;

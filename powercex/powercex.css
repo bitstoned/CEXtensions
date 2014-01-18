@@ -353,6 +353,10 @@ form,
 	border-radius: 0 15px 15px 0 !important;
 	}
 
+.panel {
+	min-height: 115px !important;
+	}
+
 .panel,
 .panel-heading {
 	width: 94% !important;

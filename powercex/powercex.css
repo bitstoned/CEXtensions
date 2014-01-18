@@ -73,10 +73,6 @@ div > div {
 	font-size: 80% !important;
 	}
 
-br:last-child {
-	display: none !important;
-	}
-
 .navbar-inner {
 	min-height: 24px !important;
 	}
@@ -125,7 +121,6 @@ br:last-child {
 	/* display: none; */
 	}
 
-br:last-child,
 .page-header > div,
 .buy-sell > h3,
 .buy-sell > .row-fluid > .span6 > br,

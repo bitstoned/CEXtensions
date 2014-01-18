@@ -695,162 +695,162 @@ input[type="text"] {
 
 /** INTERNAL PAGES **/
 .fund-account {
-	background: rgba(0, 0, 0, 0) url(/img/fund-bg.png) no-repeat right -30px;
-	border: 1px solid #113C42;
-	-moz-border-radius: 0px;
-	-webkit-border-radius: 0px;
-	-khtml-border-radius: 0px;
-	border-radius: 0px;
+	background: rgba(0, 0, 0, 0) url(/img/fund-bg.png) no-repeat right -30px !important;
+	border: 1px solid #113C42 !important;
+	-moz-border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+	-khtml-border-radius: 0px !important;
+	border-radius: 0px !important;
 	}
 
 .balances {
-	border: 1px solid #113C42;
-	-moz-border-radius: 0px;
-	-webkit-border-radius: 0px;
-	-khtml-border-radius: 0px;
-	border-radius: 0px;
+	border: 1px solid #113C42 !important;
+	-moz-border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+	-khtml-border-radius: 0px !important;
+	border-radius: 0px !important;
 	}
 
 .balances .th {
-	border-bottom: 1px solid #113C42;
+	border-bottom: 1px solid #113C42 !important;
 	}
 
 .fund-account code {
-	font-size: 20px;
-	font-weight: 500;
-	display: block;
-	background: #96FFFF;
-	margin-top: 10px;
-	color: #12365A;
-	padding: 10px 15px;
-	border: 1px solid #0F0C0C;
-	text-align: center;
+	font-size: 20px !important;
+	font-weight: 500 !important;
+	display: block !important;
+	background: #96FFFF !important;
+	margin-top: 10px !important;
+	color: #12365A !important;
+	padding: 10px 15px !important;
+	border: 1px solid #0F0C0C !important;
+	text-align: center !important;
 	}
 
 .table-striped tbody > tr:nth-child(odd) > td,
 .table-striped tbody > tr:nth-child(odd) > th {
-	background-color: #0A1E27;
+	background-color: #0A1E27 !important;
 	}
 
 .history-tabs ul li.active {
-	border: 1px solid #113C42;
-	border-right: 1px solid #0C0C0C;
-	-moz-border-radius: 0px;
-	-webkit-border-radius: 0px;
-	-khtml-border-radius: 0px;
-	border-radius: 0px;
-	background: rgba(0, 0, 0, 0);
+	border: 1px solid #113C42 !important;
+	border-right: 1px solid #0C0C0C !important;
+	-moz-border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+	-khtml-border-radius: 0px !important;
+	border-radius: 0px !important;
+	background: rgba(0, 0, 0, 0) !important;
 	}
 
 .table-hover tbody tr:hover > td,
 .table-hover tbody tr:hover > th {
-	background-color: #000000;
+	background-color: #000000 !important;
 	}
 
 .history-data {
 	border: 1px solid #113C42 !important;
-	background: rgba(0, 0, 0, 0);
+	background: rgba(0, 0, 0, 0) !important;
 	}
 
 .pagination ul > li > a,
 .pagination ul > li > span {
-	float: left;
-	padding: 4px 12px;
-	line-height: 20px;
-	text-decoration: none;
-	background-color: rgba(0, 0, 0, 0);
-	border: 1px solid #113C42;
-	border-left-width: 0;
+	float: left !important;
+	padding: 4px 12px !important;
+	line-height: 20px !important;
+	text-decoration: none !important;
+	background-color: rgba(0, 0, 0, 0) !important;
+	border: 1px solid #113C42 !important;
+	border-left-width: 0 !important;
 	}
 
 .pagination ul > .active > a,
 .pagination ul > .active > span {
-	color: #000;
-	cursor: default;
+	color: #000 !important;
+	cursor: default !important;
 	}
 
 .pagination ul > li > a:hover,
 .pagination ul > li > a:focus,
 .pagination ul > .active>a,
 .pagination ul > .active>span {
-	background-color: #04242B;
+	background-color: #04242B !important;
 	}
 
 .pagination ul > .disabled > span,
 .pagination ul > .disabled > a,
 .pagination ul > .disabled > a:hover,
 .pagination ul > .disabled > a:focus {
-	color: #162222;
-	cursor: default;
-	background-color: transparent;
+	color: #162222 !important;
+	cursor: default !important;
+	background-color: transparent !important;
 	}
 
 .accordion-inner {
-	border-top: 1px solid #113C42;
+	border-top: 1px solid #113C42 !important;
 	}
 
 .accordion-inner,
 .accordion-group {
-	background: rgba(0, 0, 0, 0);
-	border-radius: 0px;
-	border-color: #113C42;
+	background: rgba(0, 0, 0, 0) !important;
+	border-radius: 0px !important;
+	border-color: #113C42 !important;
 	}
 
 .ref-banners textarea {
-	background: black;
+	background: black !important;
 	}
 
 .ref-links .promo {
-	-moz-border-radius: 0px;
-	-webkit-border-radius: 0px;
-	border-radius: 0px;
-	-moz-background-clip: padding;
-	-webkit-background-clip: padding-box;
-	background-clip: padding-box;
-	background-color: rgba(0, 0, 0, 0.06)!important;
-	border: 1px solid #113C42;
-	padding: 15px;
-	margin-bottom: 15px;
-	background-image: none!important;
+	-moz-border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+	border-radius: 0px !important;
+	-moz-background-clip: padding !important;
+	-webkit-background-clip: padding-box !important;
+	background-clip: padding-box !important;
+	background-color: rgba(0, 0, 0, 0.06) !important;
+	border: 1px solid #113C42 !important;
+	padding: 15px !important;
+	margin-bottom: 15px !important;
+	background-image: none !important;
 	}
 
 .nav-tabs {
-	border-bottom: 1px solid rgba(221, 221, 221, 0.07);
+	border-bottom: 1px solid rgba(221, 221, 221, 0.07) !important;
 	}
 
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover,
 .nav-tabs > .active > a:focus {
-	color: #555555;
-	cursor: default;
-	background-color: #0E1E24;
-	border-bottom-color: transparent;
+	color: #555555 !important;
+	cursor: default !important;
+	background-color: #0E1E24 !important;
+	border-bottom-color: transparent !important;
 	}
 
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover,
 .nav-tabs > .active > a:focus {
-	border:transparent;
+	border: transparent !important;
 	}
 
 .nav-tabs > li > a:hover,
 .nav-tabs > li > a:focus {
-	border-color: transparent;
+	border-color: transparent !important;
 	}
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-	text-decoration: none;
-	background-color: #093B44;
+	text-decoration: none !important;
+	background-color: #093B44 !important;
 	transition: all 0.25s ease-in-out !important;
 	-webkit-transition: all 0.25s ease-in-out !important;
 	-moz-transition: all 0.25s ease-in-out !important;              
 	}
 
 .settings .span9 {
-	border-left: 5px solid #131F22;
+	border-left: 5px solid #131F22 !important;
 	}
 
 .legend {
-	border-bottom: 1px solid #1C3542;
+	border-bottom: 1px solid #1C3542 !important;
 	}

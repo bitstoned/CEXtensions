@@ -109,6 +109,7 @@ div > div {
 	}
 
 .home > .notification.container {
+	padding-right: 10px !important;
 	position: relative !important;
 	top: 35px !important;
 	z-index: 1000 !important;

@@ -381,12 +381,29 @@ form,
 
 .buy-sell-orders > .row-fluid > .span6 > div > div {
 	height: 590px !important;
+	width: 100% !important;
+	}
+
+.buy-sell-orders table {
+	width: 96% !important;
+	}
+
+.buy-sell-orders table thead th,
+.buy-sell-orders table tbody td {
+	width: 9.5em !important;
 	}
 
 #md-sell-loading,
 #md-buy-loading,
 #orders-loading {
-	margin-left: -75px;
+	margin-left: -75px !important;
+	}
+
+#md-sell,
+#md-buy,
+#md-sell-tbody,
+#md-buy-tbody {
+	height: 100% !important;
 	}
 
 .active-orders {
@@ -394,12 +411,58 @@ form,
 	float: right !important;
 	}
 
+.active-orders br:last-child {
+	display: none !important;
+	}
+
+#orders-tbody {
+	height: 180px !important;
+	}
+
+#orders-tbody td,
+#orders thead th {
+	min-width: 8.25em !important;
+	}
+
+#orders-tbody td:first-child,
+#orders thead th:first-child {
+	min-width: 4em !important;
+	}
+
+#orders-tbody td:nth-child(6),
+#orders thead th:nth-child(6) {
+	min-width: 10em !important;
+	}
+
 .active-orders > .row-fluid > div:last-of-type {
-	height: 190px !important;
+	height: 212px !important;
+	}
+
+#history-tbody {
+	height: 320px !important;
+	}
+
+#history-tbody td,
+#history thead th {
+	min-width: 12em !important;
+	}
+
+#history-tbody td:first-child,
+#history thead th:first-child {
+	min-width: 15em !important;
+	}
+
+#history-tbody td:nth-child(2),
+#history thead th:nth-child(2) {
+	min-width: 6.5em !important;
 	}
 
 .active-orders + .active-orders > .row-fluid > div:last-of-type {
 	height: 360px !important;
+	}
+
+.table {
+	margin-bottom: 5px !important;
 	}
 
 .table th,

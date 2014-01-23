@@ -20,4 +20,6 @@ Donate?
 
 Would a Github repo be complete without a "send me money" plea in the README? I think not.
 
-BTC: 1Hs73amwuyNAQeYsQQ8yYWe2ymgeTmPWc3 | DVC: 1G4HJRScYtmLPC3yw8S17WNJdoTxyKyRCw
+@bitstoned // BTC: 1Hs73amwuyNAQeYsQQ8yYWe2ymgeTmPWc3 | DVC: 1G4HJRScYtmLPC3yw8S17WNJdoTxyKyRCw
+
+@serial77 // BTC: 1DyRW2oLRecj8YA1D1Htbk6iiepuhLfJns

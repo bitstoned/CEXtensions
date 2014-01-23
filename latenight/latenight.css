@@ -6,7 +6,7 @@
 \____/\__,_|\__\___| \_\ \/ |_|\__, |_| |_|\__| \____/\__/ /_/\_\
                                |___/  better than porno
 
-v1.4
+v1.5
 
 By Serial77 (lightly tweaked by bitstoned)
 
@@ -20,7 +20,6 @@ Use it with the Stylish! Extension for much awesomeness when visiting Cex.io
 
 For Chrome:  https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en
 For Firefox: https://addons.mozilla.org/en-US/firefox/addon/stylish/
-For Safari: http://sobolev.us/stylish/
 
 Make sure to apply this style only to the domain: cex.io (See Stylish help for your browser)
 
@@ -56,8 +55,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #content {
 	background: none !important;
-	padding: 5px 5px 15px !important;
-	}
+}
 	
 .cex-logo {
 	background: url(http://s13.postimg.org/91c2l0s93/late_night_logo.png) no-repeat !important;
@@ -86,7 +84,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	}
 
 .notification {
-	background: none !important;
+	background: rgba(0, 0, 0, 0.2) !important;
 	border: none !important;
 	}
 
@@ -102,12 +100,10 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	}
 	
 .navbar .divider-vertical {
-	margin: 0 !important;
 	border-right: 1px solid #313131 !important;
 	}
 
 .navbar .nav>li>a {
-	float: none !important;
 	color: #38697C !important;
 	}		
 
@@ -133,7 +129,6 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	border-radius: 3px !important;
 	box-shadow: inset 0 1px 0 0 #333333 !important;
 	color: #555555 !important;
-	position: relative !important;
 	text-shadow: 0 1px 0 black !important;
 	transition: all 0.5s ease-in-out !important;
 	-webkit-transition: all 0.5s ease-in-out !important;
@@ -232,9 +227,6 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	}
 	
 .panel {
-	padding: 15px !important;
-	margin-bottom: 10px !important;
-	margin-right: -10px !important;
 	background: none !important;
 	border-radius: 0px !important;
 	background: #121a1e !important;
@@ -252,8 +244,6 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	}
 	
 .panel-heading {
-	padding: 10px 26px !important;
-	margin: -15px -15px 15px !important;
 	font-size: 17.5px !important;
 	font-weight: 500 !important;
 	border-bottom: 2px groove #1E272B !important;
@@ -420,14 +410,11 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 .buy-sell {
 	border: none !important;
-	padding: 10px 5px 0 !important;
 	-moz-border-radius: 0px !important;
 	-webkit-border-radius: 0px !important;
 	-khtml-border-radius: 0px !important;
 	border-radius: 0px !important;
 	background: rgba(0, 0, 0, 0) !important;
-	position: relative !important;
-	margin-right: 5px !important;
 	}
 
 #instant > div > div > div:last-child > section:hover,#trade > div > div > div:last-child > section:hover {
@@ -449,7 +436,6 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	}
 
 .active-orders > .row-fluid > div:last-of-type {
-	height: 190px !important;
 	background: #121a1e !important;
 	background: -moz-linear-gradient(top, #121a1e 0%, #000000 100%) !important;
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#121a1e), color-stop(100%,#000000)) !important;
@@ -462,9 +448,11 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #history > tbody > tr > td:nth-child(3) {
 	color: #0B7DA2 !important;
-	font-size: 105% !important;
-	font-weight: bold !important;
 	}
+#history > tbody > tr > td:nth-child(4) {
+	color: rgb(147, 107, 218) !important;
+	}
+	
 
 .history-tabs ul li.active {
 	border: 1px solid #113C42 !important;
@@ -558,6 +546,9 @@ table {
 	
 #orders tr > td:nth-child(4){
 	color: rgb(147, 107, 218) !important;
+	}
+#orders tr > td:nth-child(5){
+	color: #0B7DA2 !important;
 	}
 
 #orders tr > td:nth-child(1) {
@@ -685,17 +676,10 @@ background-image: url(http://s13.postimg.org/4vrio8yrr/chat_bottom.png) !importa
 
 .chat .time {
 	font-size: 9px !important;
-	margin-top: 3px !important;
 	opacity: 0.5 !important;
-	margin-right: 5px !important;
 	}
 
 .sender-btn {
-	position: absolute !important;
-	right: 10px !important;
-	margin-top: 6px !important;
-	width: 16px !important;
-	height: 16px !important;
 	background:none !important;
 	}	
 
@@ -718,11 +702,6 @@ input[type="text"], input[type="password"] {
 
 .input-append .add-on,
 .input-prepend .add-on {
-	display: inline-block !important;
-	width: auto !important;
-	height: 20px !important;
-	min-width: 16px !important;
-	padding: 4px 5px !important;
 	font-size: 14px !important;
 	font-weight: normal !important;
 	line-height: 20px !important;
@@ -738,8 +717,6 @@ input[type="text"], input[type="password"] {
 #inner .footer .links a:hover {
 	color: cyan !important;
 }
-
-
 
 /** INTERNAL PAGES **/
 	
@@ -767,24 +744,17 @@ input[type="text"], input[type="password"] {
 .fund-account code {
 	font-size: 20px !important;
 	font-weight: 500 !important;
-	display: block !important;
 	background: #96FFFF !important;
-	margin-top: 10px !important;
 	color: #12365A !important;
-	padding: 10px 15px !important;
 	border: 1px solid #0F0C0C !important;
-	text-align: center !important;
 	}
 
 .pagination ul > li > a,
 .pagination ul > li > span {
-	float: left !important;
-	padding: 4px 12px !important;
 	line-height: 20px !important;
 	text-decoration: none !important;
 	background-color: rgba(0, 0, 0, 0) !important;
 	border: 1px solid #113C42 !important;
-	border-left-width: 0 !important;
 	}
 
 .pagination ul > .active > a,
@@ -828,13 +798,8 @@ input[type="text"], input[type="password"] {
 	-moz-border-radius: 0px !important;
 	-webkit-border-radius: 0px !important;
 	border-radius: 0px !important;
-	-moz-background-clip: padding !important;
-	-webkit-background-clip: padding-box !important;
-	background-clip: padding-box !important;
 	background-color: rgba(0, 0, 0, 0.06) !important;
 	border: 1px solid #113C42 !important;
-	padding: 15px !important;
-	margin-bottom: 15px !important;
 	background-image: none !important;
 	}
 
@@ -883,3 +848,16 @@ input[type="text"], input[type="password"] {
 	color: #BBB !important;
 	border-bottom: 1px solid #0D1A19 !important;
 }
+::-webkit-scrollbar {
+	background: rgba(4, 25, 26, 1) !important;;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4) !important;; 
+    -webkit-border-radius: 10px !important;;
+    border-radius: 10px !important;;
+	}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(37, 67, 82, 0.8) !important;;
+    -webkit-border-radius: 10px !important;;
+    border-radius: 10px !important;;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5) !important;; 
+	}
